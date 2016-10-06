@@ -1,0 +1,30 @@
+{
+  "name": "crazy-max/login-servers-enhanced",
+  "type":  "library",
+  "description": "Fork of the official login-servers Adminer plugin with enhancements.",
+  "keywords": ["adminer", "login-servers"],
+  "homepage": "https://github.com/crazy-max/login-servers-enhanced",
+  "license": [
+    "Apache-2.0",
+    "GPL-2.0"
+  ],
+  "authors": [
+     {
+        "name": "Jakub Vrana",
+        "homepage": "http://www.vrana.cz/"
+     },
+     {
+        "name": "crazy-max",
+        "homepage": "http://www.crazyws.fr/"
+     }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "vrana/adminer": ">=4.2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "plugins/"
+    ]
+  }
+}
