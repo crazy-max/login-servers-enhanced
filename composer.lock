@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2ab7819dca3423a615ab54b7bcf53a8a",
-    "content-hash": "25984fedb4eb989323427a341a02a0d0",
+    "hash": "1c80e7e9e775a19d1d4c58fdacdf0d19",
+    "content-hash": "a4c6a129d621424a3fc069f2674a35d1",
     "packages": [
         {
             "name": "vrana/adminer",
-            "version": "v4.2.5",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrana/adminer.git",
-                "reference": "53dfafd2ea80e318eded7937252d0c1d9b7a2c93"
+                "reference": "7af1ee3702420620641d075ebfd54d4b1d220409"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vrana/adminer/zipball/53dfafd2ea80e318eded7937252d0c1d9b7a2c93",
-                "reference": "53dfafd2ea80e318eded7937252d0c1d9b7a2c93",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/7af1ee3702420620641d075ebfd54d4b1d220409",
+                "reference": "7af1ee3702420620641d075ebfd54d4b1d220409",
                 "shasum": ""
             },
             "type": "library",
@@ -35,7 +35,7 @@
             "authors": [
                 {
                     "name": "Jakub Vrána",
-                    "homepage": "http://www.vrana.cz/"
+                    "homepage": "https://www.vrana.cz/"
                 }
             ],
             "description": "Database management in a single PHP file.",
@@ -43,7 +43,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2016-06-01 17:09:29"
+            "time": "2017-04-14 07:48:11"
         }
     ],
     "packages-dev": [],
