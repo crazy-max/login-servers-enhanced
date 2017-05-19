@@ -68,3 +68,7 @@ function adminer_object() {
 // include original Adminer or Adminer Editor
 include "./adminer.php";
 ```
+
+## License
+
+Apache-2.0. See `LICENSE` for more details.

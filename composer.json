@@ -4,10 +4,7 @@
   "description": "Fork of the official login-servers Adminer plugin with enhancements.",
   "keywords": ["adminer", "login-servers"],
   "homepage": "https://github.com/crazy-max/login-servers-enhanced",
-  "license": [
-    "Apache-2.0",
-    "GPL-2.0"
-  ],
+  "license": "Apache-2.0",
   "authors": [
      {
         "name": "Jakub Vrana",
