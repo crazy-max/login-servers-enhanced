@@ -8,7 +8,7 @@
 # login-servers-enhanced
 
 This plugin display a constant list of servers in login form.<br />
-It's a fork of the official plugin [login-servers](https://raw.github.com/vrana/adminer/master/plugins/login-servers.php) for [Adminer](http://http//www.adminer.org/) with enhancements.<br />
+It's a fork of the official plugin [login-servers](https://raw.github.com/vrana/adminer/master/plugins/login-servers.php) for [Adminer](https://www.adminer.org/) with enhancements.<br />
 Was created for the [Neard](https://github.com/crazy-max/neard) project.
 
 ## Features
