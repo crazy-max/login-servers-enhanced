@@ -15,11 +15,13 @@ Was created for the [Neard](https://github.com/crazy-max/neard) project.
 
 * Ability to select a server with different driver.
 
-## Installation with Adminer
+## Installation
+
+### Adminer
 
 Copy `plugins/login-servers-enhanced.php` in the plugins folder.
 
-## Installation with Composer
+### Composer
 
 ```bash
 composer require crazy-max/login-servers-enhanced
