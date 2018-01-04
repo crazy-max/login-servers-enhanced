@@ -12,7 +12,7 @@ if (file_exists($composerAutoload)) {
  * @link https://github.com/crazy-max/login-servers-enhanced
  *
  * @author Jakub Vrana, http://www.vrana.cz/
- * @author crazy-max, http://www.crazyws.fr/
+ * @author CrazyMax, https://github.com/crazy-max
  * @license http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
  * @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License, version 2 (one or other)
  */
