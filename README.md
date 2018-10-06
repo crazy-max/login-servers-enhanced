@@ -2,8 +2,6 @@
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3.0-8892BF.svg?style=flat-square)](https://php.net/)
 [![Build Status](https://img.shields.io/travis/crazy-max/login-servers-enhanced/master.svg?style=flat-square)](https://travis-ci.org/crazy-max/login-servers-enhanced)
 [![Code Quality](https://img.shields.io/codacy/grade/c8ce7e3c975b4d63a433272c0d11664d.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/login-servers-enhanced)
-[![StyleCI](https://styleci.io/repos/70195293/shield?style=flat-square)](https://styleci.io/repos/70195293)
-[![Libraries.io](https://img.shields.io/librariesio/github/crazy-max/login-servers-enhanced.svg?style=flat-square)](https://libraries.io/github/crazy-max/login-servers-enhanced)
 
 # login-servers-enhanced
 
