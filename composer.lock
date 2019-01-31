@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4c6a129d621424a3fc069f2674a35d1",
+    "content-hash": "4727341caf3018135ac6f483ca040bb1",
     "packages": [
         {
             "name": "vrana/adminer",
