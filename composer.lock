@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "a4c6a129d621424a3fc069f2674a35d1",
     "packages": [
         {
             "name": "vrana/adminer",
-            "version": "v4.3.1",
+            "version": "v4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrana/adminer.git",
-                "reference": "7af1ee3702420620641d075ebfd54d4b1d220409"
+                "reference": "7247f801bd06e51347d7ea671484e0fa6a883cbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vrana/adminer/zipball/7af1ee3702420620641d075ebfd54d4b1d220409",
-                "reference": "7af1ee3702420620641d075ebfd54d4b1d220409",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/7247f801bd06e51347d7ea671484e0fa6a883cbb",
+                "reference": "7247f801bd06e51347d7ea671484e0fa6a883cbb",
                 "shasum": ""
             },
             "type": "library",
@@ -29,7 +29,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0",
-                "GPL-2.0"
+                "GPL-2.0-only"
             ],
             "authors": [
                 {
@@ -42,7 +42,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2017-04-14T07:48:11+00:00"
+            "time": "2019-01-24T14:57:17+00:00"
         }
     ],
     "packages-dev": [],
