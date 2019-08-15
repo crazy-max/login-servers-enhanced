@@ -73,7 +73,7 @@ class AdminerLoginServersEnhanced
         }
         $html .= '</select>';
 
-        $html .= '<script type="text/javascript">';
+        $html .= '<script type="text/javascript" ' . nonce() . '>';
         $html .= 'function switchServer() { ';
         $html .= 'var selectServer = document.getElementsByName("auth[server]")[0]; ';
         $html .= 'var driver = selectServer.options[selectServer.selectedIndex].getAttribute("driver"); ';
