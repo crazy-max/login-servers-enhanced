@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3 (2019/08/15)
+
+* Script tag missing nonce value (PR #5)
+
 ## 1.2 (2019/01/31)
 
 * Upgrade Adminer dependency to ~4.7
