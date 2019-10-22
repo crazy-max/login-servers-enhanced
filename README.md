@@ -2,8 +2,8 @@
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3.0-8892BF.svg?style=flat-square)](https://php.net/)
 [![Build Status](https://img.shields.io/travis/com/crazy-max/login-servers-enhanced/master.svg?style=flat-square)](https://travis-ci.com/crazy-max/login-servers-enhanced)
 [![Code Quality](https://img.shields.io/codacy/grade/c8ce7e3c975b4d63a433272c0d11664d.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/login-servers-enhanced)
-[![Support me on Patreon](https://img.shields.io/badge/donate-patreon-fb664e.svg?style=flat-square)](https://www.patreon.com/crazymax)
-[![Donate Paypal](https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square)](https://www.paypal.me/crazyws)
+[![Support me on Patreon](https://img.shields.io/badge/donate-patreon-f96854.svg?logo=patreon&style=flat-square)](https://www.patreon.com/crazymax)
+[![Donate Paypal](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/crazyws)
 
 # login-servers-enhanced
 
@@ -78,7 +78,7 @@ The most basic way to show your support is to star :star2: the project, or to ra
 But we're not gonna lie to each other, I'd rather you buy me a beer or two :beers:!
 
 [![Support me on Patreon](.res/patreon.png)](https://www.patreon.com/crazymax) 
-[![Paypal Donate](.res/paypal-donate.png)](https://www.paypal.me/crazyws)
+[![Paypal Donate](.res/paypal.png)](https://www.paypal.me/crazyws)
 
 ## License
 
