@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1 (2019/10/22)
+
+* Adminer 4.7.4
+* Add dependabot
+
 ## 1.3 (2019/08/15)
 
 * Script tag missing nonce value (PR #5)
