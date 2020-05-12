@@ -2,8 +2,11 @@ language: php
 
 matrix:
   include:
+    - php: 7.4
+      before_install: composer require --dev phpunit/phpunit ^9
+      script: ./vendor/bin/phpunit --version
     - php: 7.3
-      before_install: composer require --dev phpunit/phpunit ^8
+      before_install: composer require --dev phpunit/phpunit ^9
       script: ./vendor/bin/phpunit --version
     - php: 7.2
       before_install: composer require --dev phpunit/phpunit ^8
