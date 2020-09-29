@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/crazy-max/login-servers-enhanced.svg?style=flat-square)](https://packagist.org/packages/crazy-max/login-servers-enhanced)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3.0-8892BF.svg?style=flat-square)](https://php.net/)
-[![Build Status](https://img.shields.io/travis/com/crazy-max/login-servers-enhanced/master.svg?style=flat-square)](https://travis-ci.com/crazy-max/login-servers-enhanced)
+[![Test workflow](https://img.shields.io/github/workflow/status/crazy-max/login-servers-enhanced/test?label=test&logo=github&style=flat-square)](https://github.com/crazy-max/login-servers-enhanced/actions?workflow=test)
 [![Code Quality](https://img.shields.io/codacy/grade/c8ce7e3c975b4d63a433272c0d11664d.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/login-servers-enhanced)
 [![Become a sponsor](https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/crazy-max)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/crazyws)
@@ -71,9 +71,12 @@ function adminer_object() {
 include "./adminer.php";
 ```
 
-## How can I help ?
+## How can I help?
 
-All kinds of contributions are welcome :raised_hands:! The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon: You can also support this project by [**becoming a sponsor on GitHub**](https://github.com/sponsors/crazy-max) :clap: or by making a [Paypal donation](https://www.paypal.me/crazyws) to ensure this journey continues indefinitely! :rocket:
+All kinds of contributions are welcome :raised_hands:! The most basic way to show your support is to star :star2:
+the project, or to raise issues :speech_balloon: You can also support this project by
+[**becoming a sponsor on GitHub**](https://github.com/sponsors/crazy-max) :clap: or by making a
+[Paypal donation](https://www.paypal.me/crazyws) to ensure this journey continues indefinitely! :rocket:
 
 Thanks again for your support, it is much appreciated! :pray:
 
