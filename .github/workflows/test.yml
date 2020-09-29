@@ -46,7 +46,11 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
-          tools: "composer,php-cs-fixer,phpunit:${{ matrix.phpunit-version }}"
+          tools: composer,php-cs-fixer
+      -
+        name: Install PHPUnit
+        run: |
+          composer require --dev phpunit/phpunit ${{ matrix.phpunit-version }}
       -
         name: Composer validate
         run: |
