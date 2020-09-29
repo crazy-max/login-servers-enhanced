@@ -1,0 +1,61 @@
+name: test
+
+on:
+  push:
+    branches:
+      - 'master'
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    branches:
+      - 'master'
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - php-version: 5.3
+            phpunit-version: ^4
+          - php-version: 5.4
+            phpunit-version: ^4
+          - php-version: 5.5
+            phpunit-version: ^4
+          - php-version: 5.6
+            phpunit-version: ^5
+          - php-version: 7.0
+            phpunit-version: ^6
+          - php-version: 7.1
+            phpunit-version: ^7
+          - php-version: 7.2
+            phpunit-version: ^8
+          - php-version: 7.3
+            phpunit-version: ^9
+          - php-version: 7.4
+            phpunit-version: ^9
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2.3.3
+      -
+        name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          tools: "composer,php-cs-fixer,phpunit:${{ matrix.phpunit-version }}"
+      -
+        name: Composer validate
+        run: |
+          composer validate
+      -
+        name: Composer install
+        run: |
+          composer install --prefer-dist --no-interaction --no-progress --no-suggest
+      -
+        name: PHPUnit
+        run: |
+          ./vendor/bin/phpunit --version
