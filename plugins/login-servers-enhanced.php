@@ -64,7 +64,7 @@ class AdminerLoginServersEnhanced
 
         $html .= '<input type="hidden" name="auth[driver]" value="'.$this->servers[0]->driver.'">';
 
-        $html .= '<select name="auth[server]" onchange="switchServer();">';
+        $html .= '<select name="auth[server]">';
         foreach ($this->servers as $key => $server) {
             if (!$server instanceof AdminerLoginServerEnhanced) {
                 continue;
@@ -74,6 +74,9 @@ class AdminerLoginServersEnhanced
         $html .= '</select>';
 
         $html .= '<script type="text/javascript" ' . nonce() . '>';
+        $html .= 'document.addEventListener("DOMContentLoaded", function () { ';
+        $html .= 'document.getElementsByName("auth[server]")[0].addEventListener("change", switchServer); ';
+        $html .= '}); ';
         $html .= 'function switchServer() { ';
         $html .= 'var selectServer = document.getElementsByName("auth[server]")[0]; ';
         $html .= 'var driver = selectServer.options[selectServer.selectedIndex].getAttribute("driver"); ';
