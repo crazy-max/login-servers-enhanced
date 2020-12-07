@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2 (2020/12/07)
+
+* Adminer 4.7.8
+* Fix inline event handler (#23)
+
 ## 1.3.1 (2019/10/22)
 
 * Adminer 4.7.4
