@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "vrana/adminer",
-            "version": "v4.8.0",
+            "version": "v4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrana/adminer.git",
-                "reference": "b83c61fca3f491073cd5f5888a2acbf6f044366b"
+                "reference": "1f173e18bdf0be29182e0d67989df56eadea4754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vrana/adminer/zipball/b83c61fca3f491073cd5f5888a2acbf6f044366b",
-                "reference": "b83c61fca3f491073cd5f5888a2acbf6f044366b",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/1f173e18bdf0be29182e0d67989df56eadea4754",
+                "reference": "1f173e18bdf0be29182e0d67989df56eadea4754",
                 "shasum": ""
             },
             "type": "library",
@@ -52,7 +52,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-10T16:21:55+00:00"
+            "time": "2021-05-14T05:39:59+00:00"
         }
     ],
     "packages-dev": [],
