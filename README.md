@@ -1,7 +1,6 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/crazy-max/login-servers-enhanced.svg?style=flat-square)](https://packagist.org/packages/crazy-max/login-servers-enhanced)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3.0-8892BF.svg?style=flat-square)](https://php.net/)
 [![Test workflow](https://img.shields.io/github/workflow/status/crazy-max/login-servers-enhanced/test?label=test&logo=github&style=flat-square)](https://github.com/crazy-max/login-servers-enhanced/actions?workflow=test)
-[![Code Quality](https://img.shields.io/codacy/grade/c8ce7e3c975b4d63a433272c0d11664d.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/login-servers-enhanced)
 [![Become a sponsor](https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/crazy-max)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/crazyws)
 
