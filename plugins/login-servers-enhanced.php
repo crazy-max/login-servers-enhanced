@@ -34,7 +34,7 @@ class AdminerLoginServersEnhanced
             if (!$server instanceof AdminerLoginServerEnhanced) {
                 continue;
             }
-            if ($server->domain == SERVER) {
+            if ($server->domain == Adminer\SERVER) {
                 return true;
             }
         }
@@ -50,8 +50,8 @@ class AdminerLoginServersEnhanced
         $html .= $this->getTrPassword();
         $html .= '</table>';
 
-        $html .= '<p><input type="submit" value="'.lang('Login').'">';
-        $html .= checkbox('auth[permanent]', 1, $_COOKIE['adminer_permanent'], lang('Permanent login'))."\n";
+        $html .= '<p><input type="submit" value="'.Adminer\lang('Login').'">';
+        $html .= Adminer\checkbox('auth[permanent]', 1, $_COOKIE['adminer_permanent'], Adminer\lang('Permanent login'))."\n";
 
         echo $html;
 
@@ -60,7 +60,7 @@ class AdminerLoginServersEnhanced
 
     private function getTrServer()
     {
-        $html = '<tr><th>'.lang('Server').'<td>';
+        $html = '<tr><th>'.Adminer\lang('Server').'<td>';
 
         $html .= '<input type="hidden" name="auth[driver]" value="'.$this->servers[0]->driver.'">';
 
@@ -73,7 +73,7 @@ class AdminerLoginServersEnhanced
         }
         $html .= '</select>';
 
-        $html .= '<script type="text/javascript" ' . nonce() . '>';
+        $html .= '<script type="text/javascript" ' . Adminer\nonce() . '>';
         $html .= 'document.addEventListener("DOMContentLoaded", function () { ';
         $html .= 'document.getElementsByName("auth[server]")[0].addEventListener("change", switchServer); ';
         $html .= '}); ';
@@ -89,15 +89,15 @@ class AdminerLoginServersEnhanced
 
     private function getTrUsername()
     {
-        $html = '<tr><th>'.lang('Username').'<td>';
-        $html .= '<input id="username" name="auth[username]" value="'.h($_GET['username']).'">';
+        $html = '<tr><th>'.Adminer\lang('Username').'<td>';
+        $html .= '<input id="username" name="auth[username]" value="'.Adminer\h($_GET['username']).'">';
 
         return $html;
     }
 
     private function getTrPassword()
     {
-        $html = '<tr><th>'.lang('Password').'<td>';
+        $html = '<tr><th>'.Adminer\lang('Password').'<td>';
         $html .= '<input type="password" name="auth[password]">';
 
         return $html;
