@@ -4,11 +4,19 @@
 [![Become a sponsor](https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/crazy-max)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/crazyws)
 
-# login-servers-enhanced
+## :warning: Abandoned project
 
-This plugin display a constant list of servers in login form.<br />
-It's a fork of the official plugin [login-servers](https://raw.github.com/vrana/adminer/master/plugins/login-servers.php) for [Adminer](https://www.adminer.org/) with enhancements.<br />
-Was created for the [Neard](https://github.com/crazy-max/neard) project.
+This project is not maintained anymore and is abandoned. Feel free to fork and
+make your own changes if needed.
+
+Thanks to everyone for their valuable feedback and contributions.
+
+## About
+
+login-servers-enhanced displays a constant list of servers in login form. It's
+a fork of the official plugin [login-servers](https://raw.github.com/vrana/adminer/master/plugins/login-servers.php)
+for [Adminer](https://www.adminer.org/) with enhancements and was created for
+the [Neard](https://github.com/neard/neard) project.
 
 ## Features
 
